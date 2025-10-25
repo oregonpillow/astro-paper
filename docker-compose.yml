@@ -1,7 +1,7 @@
 services:
   astro:
-    image: oregonpillow-home
-    container_name: oregonpillow-home
+    image: oregonpillow
+    container_name: oregonpillow
     network_mode: lsio
     build:
       context: .
