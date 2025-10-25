@@ -7,5 +7,5 @@ services:
       context: .
       dockerfile: Dockerfile
       no_cache: true
-    ports:
-      - "4321:80"
+    #ports:
+    #  - "4321:80"
