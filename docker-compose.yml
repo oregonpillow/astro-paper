@@ -1,9 +1,11 @@
 services:
-  app:
-    image: node:lts
+  astro:
+    image: oregonpillow-home
+    container_name: oregonpillow-home
+    network_mode: lsio
+    build:
+      context: .
+      dockerfile: Dockerfile
+      no_cache: true
     ports:
-      - 4321:4321
-    working_dir: /app
-    command: npm run dev -- --host 0.0.0.0
-    volumes:
-      - ./:/app
+      - "4321:80"
