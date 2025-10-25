@@ -3,8 +3,6 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-# About
-
 Scientist to Developer about sums it up.
 
 ## Some facts about me:
